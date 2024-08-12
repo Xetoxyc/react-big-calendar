@@ -1,14 +1,14 @@
 {
-  "name": "react-big-calendar",
-  "version": "1.13.2",
-  "description": "Calendar! with events",
+  "name": "@xetoxyc/react-big-calendar",
+  "version": "1.0.0",
+  "description": "Calendar! with events but modified",
   "author": {
     "name": "Jason Quense",
     "email": "monastic.panic@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jquense/react-big-calendar.git"
+    "url": "git+https://github.com/Xetoxyc/react-big-calendar.git"
   },
   "publishConfig": {
     "access": "public",
@@ -128,7 +128,7 @@
     "uncontrollable": "^7.2.1"
   },
   "bugs": {
-    "url": "https://github.com/jquense/react-big-calendar/issues"
+    "url": "https://github.com/xetoxyc/react-big-calendar/issues"
   },
-  "homepage": "https://github.com/jquense/react-big-calendar#readme"
+  "homepage": "https://github.com/xetoxyc/react-big-calendar#readme"
 }

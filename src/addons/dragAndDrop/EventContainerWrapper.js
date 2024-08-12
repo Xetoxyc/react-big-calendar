@@ -70,7 +70,13 @@ class EventContainerWrapper extends React.Component {
     )
 
     const { duration } = eventTimes(event, accessors, this.props.localizer)
-    let newEnd = this.props.localizer.add(newSlot, duration, 'milliseconds')
+
+    let newEnd = this.props.localizer.add(
+      newSlot,
+      event.allDay ? 60 * 60 * 1000 : duration,
+      'milliseconds'
+    )
+
     this.update(event, slotMetrics.getRange(newSlot, newEnd, false, true))
   }
 
