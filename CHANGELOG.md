@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/Xetoxyc/react-big-calendar/compare/v1.0.0...v1.1.0) (2024-08-13)
+
+
+### Bug Fixes
+
+* add *.d.ts to eslintingore ([43a4640](https://github.com/Xetoxyc/react-big-calendar/commit/43a46405c445482de5a5c191c1c442a7097d5a5d))
+* build error only on github ([05a9b7c](https://github.com/Xetoxyc/react-big-calendar/commit/05a9b7c76cc53bdaa1c44c0d4610287e1af2c337))
+* remove package-lock.json ([4816e37](https://github.com/Xetoxyc/react-big-calendar/commit/4816e37042b3257c36628a172871ac9216e3608b))
+* use relative path ([b9d8bce](https://github.com/Xetoxyc/react-big-calendar/commit/b9d8bce044179742aa9933798a34cb492e4154f0))
+
+
+### Features
+
+* adding typescript directly to the lib ([b320462](https://github.com/Xetoxyc/react-big-calendar/commit/b320462a43fb4454467c0f8f974647f845462814))
+
 # 1.0.0 (2024-08-12)
 
 
