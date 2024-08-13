@@ -5,8 +5,8 @@ import babel from '@rollup/plugin-babel'
 import commonjs from '@rollup/plugin-commonjs'
 import replace from '@rollup/plugin-replace'
 import clear from 'rollup-plugin-clear'
-// removed sizeSnapshot, as it is not compatible with ESM
 import { terser } from 'rollup-plugin-terser'
+import dts from 'rollup-plugin-dts'
 import pkg from './package.json' assert { type: 'json' }
 
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
@@ -18,6 +18,7 @@ const babelOptions = {
   exclude: /node_modules/,
   babelHelpers: 'runtime',
 }
+
 const globals = {
   react: 'React',
   'react-dom': 'ReactDOM',
@@ -37,9 +38,8 @@ export default [
       globals,
       interop: 'auto',
     },
-    external: Object.keys(globals).push(/@babel\/runtime/),
+    external: [...Object.keys(globals), /@babel\/runtime/],
     plugins: [
-      // only use 'clear' on the first target
       clear({
         targets: ['./dist', './lib'],
         watch: true,
@@ -63,7 +63,7 @@ export default [
       globals,
       interop: 'auto',
     },
-    external: Object.keys(globals).push(/@babel\/runtime/),
+    external: [...Object.keys(globals), /@babel\/runtime/],
     plugins: [
       replace({
         'process.env.NODE_ENV': JSON.stringify('production'),
@@ -83,7 +83,6 @@ export default [
       format: 'esm',
       interop: 'auto',
     },
-    // prevent bundling all dependencies
     external: (id) => !id.startsWith('.') && !id.startsWith('/'),
     plugins: [
       babel({
@@ -91,5 +90,15 @@ export default [
         configFile: path.join(__dirname, 'babel.config.esm.js'),
       }),
     ],
+  },
+
+  // TypeScript declarations build
+  {
+    input: 'src/types/index.d.ts',
+    output: {
+      file: 'dist/types/index.d.ts',
+      format: 'es',
+    },
+    plugins: [dts()],
   },
 ]
