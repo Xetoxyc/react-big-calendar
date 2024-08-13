@@ -21,7 +21,7 @@ import {
 } from 'date-arithmetic'
 import { Validator } from 'prop-types'
 import * as React from 'react'
-import { withDragAndDrop } from 'src/types/lib/addons/dragAndDrop'
+import withDragAndDrop from './addons/dragAndDrop'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
@@ -690,7 +690,7 @@ export interface DayProps {
 }
 export class Day extends React.Component<DayProps> {}
 
-export * from 'src/types/lib/addons/dragAndDrop'
+export * from './addons/dragAndDrop'
 export { withDragAndDrop }
 
 // Turn off automatic exports

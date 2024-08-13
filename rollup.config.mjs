@@ -94,7 +94,7 @@ export default [
 
   // TypeScript declarations build
   {
-    input: 'src/types/index.d.ts',
+    input: './src/types/index.d.ts',
     output: {
       file: 'dist/types/index.d.ts',
       format: 'es',
