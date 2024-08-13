@@ -691,7 +691,3 @@ export interface DayProps {
 export class Day extends React.Component<DayProps> {}
 
 export * from './lib/addons/dragAndDrop'
-export { withDragAndDrop }
-
-// Turn off automatic exports
-export {}
