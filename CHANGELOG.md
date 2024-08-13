@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Xetoxyc/react-big-calendar/compare/v1.1.1...v1.2.0) (2024-08-13)
+
+
+### Features
+
+* add withDragAndDrop to build ([bfc5d99](https://github.com/Xetoxyc/react-big-calendar/commit/bfc5d99620e7d10303371247f82a6721856c5b4b))
+
 ## [1.1.1](https://github.com/Xetoxyc/react-big-calendar/compare/v1.1.0...v1.1.1) (2024-08-13)
 
 
