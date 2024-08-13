@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Xetoxyc/react-big-calendar/compare/v1.1.0...v1.1.1) (2024-08-13)
+
+
+### Bug Fixes
+
+* missing types and wrong type path ([4616e6a](https://github.com/Xetoxyc/react-big-calendar/commit/4616e6a316017df7530b2e2d1a7b4180ffefe0f8))
+
 # [1.1.0](https://github.com/Xetoxyc/react-big-calendar/compare/v1.0.0...v1.1.0) (2024-08-13)
 
 
