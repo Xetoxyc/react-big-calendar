@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Xetoxyc/react-big-calendar/compare/v1.2.0...v1.2.1) (2024-08-30)
+
+
+### Bug Fixes
+
+* day is now checked by milliseconds ([408d375](https://github.com/Xetoxyc/react-big-calendar/commit/408d3755a4492fb6fbfcd2cd976e2f56acdb74d0))
+
 # [1.2.0](https://github.com/Xetoxyc/react-big-calendar/compare/v1.1.1...v1.2.0) (2024-08-13)
 
 
