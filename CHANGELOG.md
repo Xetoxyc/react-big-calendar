@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/Xetoxyc/react-big-calendar/compare/v1.2.2...v1.2.3) (2025-06-23)
+
+
+### Bug Fixes
+
+* remove createFactory ([ca17a7f](https://github.com/Xetoxyc/react-big-calendar/commit/ca17a7fa329a0b7e5138a37063331d6e332f94c4))
+
 ## [1.2.2](https://github.com/Xetoxyc/react-big-calendar/compare/v1.2.1...v1.2.2) (2025-05-07)
 
 
