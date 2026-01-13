@@ -171,3 +171,6 @@ Help us improve Big Calendar! Join us on [Slack](https://join.slack.com/t/bigcal
 ## Translations
 
 - [العربية](/docs/README-ar.md)
+
+## Time
+13th Jan, 2026
