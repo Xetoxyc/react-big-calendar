@@ -1,5 +1,6 @@
 @use './variables' as *;
 @use 'sass:color';
+@use './utilities';
 
 .rbc-row {
   display: flex;
