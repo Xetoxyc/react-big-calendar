@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/Xetoxyc/react-big-calendar/compare/v1.2.3...v1.3.0) (2026-01-13)
+
+
+### Bug Fixes
+
+* refactoring scss variable usages ([fb3e65c](https://github.com/Xetoxyc/react-big-calendar/commit/fb3e65c0411e6f4d1588704708eace31086cc93e))
+
+
+### Features
+
+* add utilities styles for layout and text handling ([285352e](https://github.com/Xetoxyc/react-big-calendar/commit/285352e0d359cb19dce53c57dee5457b9ea5c61e))
+
 ## [1.2.3](https://github.com/Xetoxyc/react-big-calendar/compare/v1.2.2...v1.2.3) (2025-06-23)
 
 
