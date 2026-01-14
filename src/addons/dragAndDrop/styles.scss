@@ -1,4 +1,5 @@
-@import '../../sass/variables';
+@use 'sass:color';
+@use '../../sass/variables' as *;
 
 .rbc-addons-dnd {
   .rbc-addons-dnd-row-body {
@@ -14,9 +15,9 @@
 
   .rbc-addons-dnd-over {
     background-color: rgba(
-      red($date-selection-bg-color),
-      green($date-selection-bg-color),
-      blue($date-selection-bg-color),
+      color.red($date-selection-bg-color),
+      color.green($date-selection-bg-color),
+      color.blue($date-selection-bg-color),
       .3
     );
   }
