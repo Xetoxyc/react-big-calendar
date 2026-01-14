@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/Xetoxyc/react-big-calendar/compare/v1.3.2...v1.3.3) (2026-01-14)
+
+
+### Bug Fixes
+
+* update sass to version 1.80.0 and improve color handling in styles ([b5831af](https://github.com/Xetoxyc/react-big-calendar/commit/b5831aff42c62b6f57080862356db7431f0f2355))
+
 ## [1.3.2](https://github.com/Xetoxyc/react-big-calendar/compare/v1.3.1...v1.3.2) (2026-01-14)
 
 
