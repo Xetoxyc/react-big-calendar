@@ -15,9 +15,9 @@
 
   .rbc-addons-dnd-over {
     background-color: rgba(
-      color.red($date-selection-bg-color),
-      color.green($date-selection-bg-color),
-      color.blue($date-selection-bg-color),
+      color.channel($date-selection-bg-color, "red", $space: rgb),
+      color.channel($date-selection-bg-color, "green", $space: rgb),
+      color.channel($date-selection-bg-color, "blue", $space: rgb),
       .3
     );
   }
