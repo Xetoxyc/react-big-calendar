@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/Xetoxyc/react-big-calendar/compare/v1.3.1...v1.3.2) (2026-01-14)
+
+
+### Bug Fixes
+
+* saas waning from usage ([6545d4f](https://github.com/Xetoxyc/react-big-calendar/commit/6545d4fac849363580d31f7c5ab49ddcfb3d81d6))
+
 ## [1.3.1](https://github.com/Xetoxyc/react-big-calendar/compare/v1.3.0...v1.3.1) (2026-01-13)
 
 
